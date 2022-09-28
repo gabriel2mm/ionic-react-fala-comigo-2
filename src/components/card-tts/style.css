@@ -1,0 +1,24 @@
+.card-tts{
+    overflow: revert;
+}
+.card-content-relative{
+    position: relative;
+}
+
+.play-button{
+
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    bottom: -50%;
+
+    transform: translateX(-50%) translateY(-105%);
+    
+    --background: #8A3FFC;
+    --background-hover: #624DB5;
+    --background-activated: #624DB5;
+    --background-focused: #624DB5;
+    --ripple-color: rgba(255,255,255,0.3);
+    --border-radius: 50%;
+}

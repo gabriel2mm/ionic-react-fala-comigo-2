@@ -1,0 +1,25 @@
+.container-chips{
+    padding: 20px;
+    width: 100%;
+
+    flex:1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+
+    overflow-x: hidden;
+}
+
+.chips{
+    word-wrap: unset;
+    word-break: keep-all;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: max-content;
+    min-width: max-content;
+}
